@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+</head>
+<body data-scroll-container>
+    <div class="loading-screen">
+        <div class="loading-words">
+            <span class="word">Développeur</span>
+            <span class="word">Designer</span>
+            <span class="word">Création</span>
+        </div>
+        <div class="loading-bar-container">
+            <div class="loading-bar"></div>
+        </div>
+    </div>
+
+    <div class="page-transition"></div>
+
+    <header data-scroll-section>
+        <nav>
+            <div class="logo">Portfolio site web</div>
+            <div class="nav-links">
+                <a href="#about">À propos</a>
+                <a href="#projects">Projets</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="hero-text-container">
+                <h1 class="main-title" data-scroll data-scroll-speed="3">
+                    Développeur Web
+                    <span class="creative">Créatif</span>
+                </h1>
+                <p class="subtitle" data-scroll data-scroll-speed="2">
+                    Création d'expériences web uniques
+                </p>
+            </div>
+            <div class="hero-image" data-scroll data-scroll-speed="-2">
+                <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97" alt="Code créatif">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="projects" data-scroll-section>
+            <div class="project-item" data-scroll data-scroll-speed="1">
+                <div class="project-image">
+                    <a href="https://plaisirpermis.onrender.com" target="_blank">
+                        <img src="./images/plaisir-permis.png" alt="Plaisir Permis">
+                    </a>
+                </div>
+                <div class="project-info">
+                    <h2>Plaisir Permis</h2>
+                    <p>Application web moderne pour une auto-école, offrant une gestion complète des élèves et des leçons. Interface intuitive avec système de réservation en ligne et suivi des progrès.</p>
+                    <a href="https://plaisirpermis.onrender.com" class="project-link" target="_blank">Voir le projet →</a>
+                </div>
+            </div>
+
+            <div class="project-item" data-scroll data-scroll-speed="1">
+                <div class="project-image">
+                    <a href="https://hugopaysagiste.onrender.com" target="_blank">
+                        <img src="./images/hugo-paysagiste.png" alt="Hugo Paysagiste">
+                    </a>
+                </div>
+                <div class="project-info">
+                    <h2>Site vitrine paysagiste</h2>
+                    <p>Site vitrine élégant pour un paysagiste, mettant en valeur ses réalisations avec une galerie photo interactive. Design moderne et responsive avec animations fluides.</p>
+                    <a href="https://hugopaysagiste.onrender.com" class="project-link" target="_blank">Voir le projet →</a>
+                </div>
+            </div>
+
+            <div class="project-item" data-scroll data-scroll-speed="1">
+                <div class="project-image">
+                    <a href="https://alesia.onrender.com" target="_blank">
+                        <img src="./images/alesia.png" alt="Alesia RP">
+                    </a>
+                </div>
+                <div class="project-info">
+                    <h2>Site Alesia RP</h2>
+                    <p>Plateforme communautaire pour Alesia RP, avec un design immersif et des fonctionnalités interactives. Interface utilisateur moderne et système de navigation intuitif.</p>
+                    <a href="https://alesia.onrender.com" class="project-link" target="_blank">Voir le projet →</a>
+                </div>
+            </div>
+
+            <div class="project-item" data-scroll data-scroll-speed="1">
+                <div class="project-image">
+                    <a href="https://portfolioangelica.onrender.com" target="_blank">
+                        <img src="./images/angelica-portfolio.png" alt="Portfolio Angelica">
+                    </a>
+                </div>
+                <div class="project-info">
+                    <h2>Portfolio Angelica</h2>
+                    <p>Portfolio artistique avec un design minimaliste et élégant. Présentation interactive des œuvres avec animations subtiles et navigation fluide.</p>
+                    <a href="https://portfolioangelica.onrender.com" class="project-link" target="_blank">Voir le projet →</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer data-scroll-section>
+        <div class="contact-section">
+            <h2>Travaillons ensemble</h2>
+            <a href="mailto:contact@example.com" class="contact-link">contact@example.com</a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
