@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veille Technologique - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/split-type"></script>
+</head>
+<body>
+    <header data-scroll-section>
+        <nav>
+            <div class="logo">Portfolio site web</div>
+            <div class="nav-links">
+                <a href="index.html">Accueil</a>
+                <a href="index.html#about">À propos</a>
+                <a href="index.html#projects">Projets</a>
+                <a href="stages.html">Stages</a>
+                <a href="veille.html" class="active">Veille technologique</a>
+                <a href="index.html#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="veille-section" data-scroll-section>
+            <div class="veille-container">
+                <h1 class="section-title">Veille Technologique</h1>
+                
+                <div class="veille-card">
+                    <div class="veille-header">
+                        <h2>AR (réalité augmentée)</h2>
+                    </div>
+                    
+                    <div class="veille-content">
+                        <p>
+                            La réalité augmentée (AR) est une technologie qui superpose des éléments virtuels, tels que des images, des vidéos, des graphiques 3D ou des informations contextuelles, sur le monde réel, généralement en temps réel, pour créer une expérience immersive et interactive. Contrairement à la réalité virtuelle (VR), qui plonge l'utilisateur dans un environnement entièrement virtuel, la réalité augmentée conserve la perception de l'environnement réel tout en y ajoutant des éléments numériques.
+                        </p>
+
+                        <div class="image-grid">
+                            <img src="images/ar-medical.jpg" alt="AR en médecine" class="veille-image">
+                            <img src="images/ar-interface.jpg" alt="Interface AR" class="veille-image">
+                        </div>
+
+                        <h3>Pourquoi ce sujet ?</h3>
+                        <p>
+                            J'ai choisi de me concentrer sur ce sujet parce qu'il a le potentiel de changer de nombreux domaines comme l'éducation, la médecine, le commerce et l'industrie. Contrairement à la réalité virtuelle, l'AR ajoute des éléments numériques au monde réel, offrant une expérience plus riche et interactive. J'ai compris que cela était prometteur lorsque j'ai vu un documentaire dans lequel certains médecins l'utilisaient lors de certaines opérations.
+                        </p>
+
+                        <h3>Son utilisation ?</h3>
+                        <p>
+                            Dans la vie de tous les jours, la RA permet d'enrichir notre interaction avec le monde en superposant des informations virtuelles au monde réel. Par exemple, elle peut être intégrée dans des applications de navigation pour afficher des directions en temps réel directement sur le paysage visible à travers un smartphone ou des lunettes connectées.
+                        </p>
+                        <p>
+                            Dans le domaine médical, elle offre des avantages considérables. Les professionnels de santé peuvent, en temps réel, accéder à des informations cruciales sur les patients, comme des données anatomiques superposées lors d'une opération chirurgicale ou des analyses détaillées des organes internes à l'aide d'un scanner. Cela améliore la précision des diagnostics et des interventions.
+                        </p>
+
+                        <h3>Outils de Veille</h3>
+                        <div class="tools-grid">
+                            <div class="tool-item">
+                                <img src="images/feedly-logo.png" alt="Feedly">
+                                <span>Feedly</span>
+                            </div>
+                            <div class="tool-item">
+                                <img src="images/google-alerts-logo.png" alt="Google Alerts">
+                                <span>Google Alerts</span>
+                            </div>
+                            <div class="tool-item">
+                                <img src="images/youtube-logo.png" alt="YouTube">
+                                <span>YouTube</span>
+                            </div>
+                            <div class="tool-item">
+                                <img src="images/reddit-logo.png" alt="Reddit">
+                                <span>Reddit</span>
+                            </div>
+                            <div class="tool-item">
+                                <img src="images/pearltrees-logo.png" alt="Pearltrees">
+                                <span>Pearltrees</span>
+                            </div>
+                        </div>
+
+                        <div class="pearltrees-embed">
+                            <iframe src="https://www.pearltrees.com/[votre_username]" width="100%" height="600" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer data-scroll-section>
+        <p>&copy; 2024 Mon Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
